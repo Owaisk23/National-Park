@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Park</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Serif:opsz,wght@8..144,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <!-- BootStrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </script>
+    <!-- Font Awesomne CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar start -->
+
+    <div id="container">
+
+        <nav class="navbar navbar-expand-lg  bg-body-tertiary fw-bold sticky-top bg-dark ">
+            <div class="container-fluid" id="nav">
+                <a class="navbar-brand text-success fs-2" href="../../index.html" style="font-family: Rubik Wet Paint;"><img src="../Media/e-project logo.png" alt="" style="height: 100px; width: 150px; margin-right: 10px; font-family: Rubik Wet Paint; ">National Park
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse text-center " id="navbarSupportedContent" style="margin-left: -28px;">
+                    <ul class="navbar-nav mx-auto  fs-5" style="font-family: Agbalumo;">
+                        <li class="nav-item">
+                            <a class="nav-link active me-2 " aria-current="page" href="../index.html" id="dw">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle rounded-pill  ms-2 me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dw1">
+                Specials
+              </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#event">Events</a></li>
+                                <li><a class="dropdown-item" href="../conservation/conservation.html">Conservation</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../Galleryyyysss/gallery 1/Gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../News/News.html">News&Blogs</a></li>
+                                <li><a class="dropdown-item" href="../Ticket/ticket.html">Tickets</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle rounded-pill  ms-2 me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dw2">
+                Parks
+              </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../../Evergreen Park/index.html">Evergreen Park</a></li>
+                                <li><a class="dropdown-item" href="../../Medowland Park/index.html">Medowland Park</a></li>
+                                <li><a class="dropdown-item" href="../../Lakeside Park/index.html">Lakeside Serenity Park</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="../About Us/about.html" id="dw3">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="../Contact_Us/Contact.html" id="dw4">Contact Us</a>
+                        </li>
+
+                        <div class="icons" style="margin-right: 5px;">
+                            <i class="fa-solid fa-moon" id="moon" onclick="dmode()" onmouseover="applydmode()" onmouseout="notapplydmode()"></i>
+                            <small id="dmodetext"></small>
+                            <i class="fa-solid fa-sun" id="sun" onclick="lmode()" onmouseover="applylmode()" onmouseout="notapplylmode()"></i>
+                            <small id="lmodetext"></small>
+                        </div>
+
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success bg-white" type="submit"><a href="../Register/signup.html"
+                style="font-family: Agbalumo; text-decoration: none; color: green;">Register
+                Now</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- navbar closed -->
+
+        <!-- Banner Starts -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+                    <h3 class="text-center text-light col-md-12 col-lg-12 col-sm-12" style="font-family: Agbalumo; position: absolute; z-index: 1; margin-top: 250px; font-size: 40px;">Escape Yourself From The Busy World <br> To The World Of <br> Peace </h3>
+                    <img src="./Media/Home_img.png" alt="" class="img-fluid " style="width: 100%; height: 650px; position: relative; z-index: -160px; ">
+                </div>
+            </div>
+        </div>
+        <!-- Banner Ends -->
+
+        <!-- Events Starts -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                    <h4 class="text-danger fs-3 text-center" style=" margin-top: 60px; font-family: Agbalumo; font-weight: bolder; position: relative;" data-aos="fade-down">Social Events</h4>
+                    <div class="d-flex ">
+                        <h2 class="fs-1 text-success col-md-12 col-sm-12 col-lg-12 text-center" style=" font-family: Agbalumo; font-weight: bolder; position: relative;" data-aos="fade-up">Upcoming Events
+                        </h2>
+                        <button style=" position: relative; width: 150px; margin-left: -150px; " class="bg-success text-light fs-6 rounded-pill border border-light col-md-12 col-sm-12 col-lg-12">See
+              All Events</button>
+                    </div>
+                    <hr style="color: green; border: 1.5px solid rgb(7, 58, 7); ">
+                </div>
+            </div>
+        </div>
+        <!-- cards start  -->
+
+        <div class="container" id="event">
+            <div class="row">
+
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-4  col-sm-12 mt-5 text-center" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="card" style="border: 6px double rgb(4, 139, 4); border-radius: 20px; height: 480px;" id="card1">
+                        <img src="./Media/Events_1.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success fs-3 text-center text-center " style="font-family: Agbalumo;">
+                                Rainforest Exploration
+                            </h5>
+                            <p class="card-text text-center mt-3">"Embark on a captivating journey through lush rainforests, unveiling a treasure trove of biodiversity."</p>
+                            <a href="https://rainforests.mongabay.com/10-how-to-save-rainforests.html" target="_blank" class="btn btn-success p-2 rounded-pill mt-3">See Events</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 text-center" data-aos="fade-up" data-aos-duration="500">
+                    <div class="card" style="border: 6px double rgb(4, 139, 4); border-radius: 20px; height: 480px;" id="card2">
+                        <img src="./Media/Events_2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success fs-3 text-center " style="font-family: Agbalumo;">Really Wild <br> Day
+                            </h5>
+                            <p class="card-text mt-3 text-center fs-6">"An exhilarating celebration of nature's untamed beauty, sparking adventure and appreciation for the wild world."</p>
+                            <a href="#" class="btn btn-success p-2 rounded-pill mt-3">See Events</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 text-center" data-aos="fade-left" data-aos-duration="500">
+                    <div class="card" style="border: 6px double rgb(4, 139, 4); border-radius: 20px; height: 480px;" id="card3">
+                        <img src="./Media/Events_3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success fs-3 text-center" style="font-family: Agbalumo;">Vote for a Green Future
+                            </h5>
+                            <p class="card-text mt-3 text-center">"Cast your vote for a sustainable tomorrow, championing environmental policies and practices."
+
+
+
+
+
+                            </p>
+                            <a href="#" class="btn btn-success p-2 rounded-pill mt-3">See Events</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 text-center" data-aos="fade-right" data-aos-duration="500">
+                    <div class="card" style="border: 6px double rgb(4, 139, 4); border-radius: 20px; height: 480px;" id="card4">
+                        <img src="./Media/Events_4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success fs-3 text-center " style="font-family: Agbalumo;">Easter Eggstravaganza
+                            </h5>
+                            <p class="card-text mt-3 text-center">"A festive Easter celebration filled with egg hunts, colorful decorations, and joyful family gatherings."</p>
+                            <a href="#" class="btn btn-success p-2 rounded-pill mt-3">See Events</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 text-center" data-aos="fade-down" data-aos-duration="500">
+                    <div class="card" style="border: 6px double rgb(4, 139, 4); border-radius: 20px; height: 480px;" id="card5">
+                        <img src="./Media/Events_5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success text-center fs-2" style="font-family: Agbalumo;">Party for the Planet
+                            </h5>
+                            <p class="card-text mt-3 text-center">"A jubilant event uniting communities to celebrate Earth's wonders and advocate for conservations."
+
+
+
+
+
+                            </p>
+                            <a href="#" class="btn btn-success p-2 rounded-pill mt-2">See Events</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 text-center" data-aos="fade-left" data-aos-duration="500">
+                    <div class="card" style="border: 6px double rgb(4, 139, 4); border-radius: 20px; height: 480px;" id="card6">
+                        <img src="./Media/Events_6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success text-center" style="font-size: 26px;" style="font-family: Agbalumo;">
+                                Breakfast With the Birds</h5>
+                            <p class="card-text mt-3 text-center">"An enchanting morning affair, savoring breakfast while surrounded by melodious avian companions."</p>
+
+
+
+
+
+                            </p>
+                            <a href="https://www.wildlifehabitat.com.au/port-douglas-experiences/breakfast-with-the-birds/" class="btn btn-success p-2 rounded-pill mt-3" style>See Events</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <div class="col-md-12" id="footer">
+        <footer class="footer-section ">
+            <div class="container-fluid">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>North Nazimabad Karachi, Pakistan</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>+92 374385230</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>nationalpark@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo ">
+                                    <a href="../../index.html"><img class="logopic" src="./Media/e-project logo.png" class="img" alt="logo"></a>
+                                    <h3 class="logoname  " style="margin-left: 160px">National Park</h3>
+                                </div>
+                                <div class="footer-text">
+                                    <p class="footer-texxt">Our National Park ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit Karachi.</p>
+                                </div>
+                                <div class="footer-social-icon ms-3">
+                                    <span>Follow us</span>
+                                    <a href="https://www.facebook.com/CanyonlandsNPS" target="_blank"><i
+                      class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading d-flex">
+                                    <h3>Side maps</h3>
+                                    <h3 style="margin-left: 190px;">Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="../index.html">Home</a></li>
+                                    <li><a href="../News/News.html">News</a></li>
+                                    <li><a href="../Ticket/ticket.html">Tickets</a></li>
+                                    <li><a href="#event">Events</a></li>
+
+                                    <li><a href="../Contact_Us/Contact.html">Contact Us</a></li>
+                                    <li><a href="../Galleryyyysss/gallery 1/Gallery.html">Gallery</a></li>
+                                    <li><a href="../About Us/about.html">About Us</a></li>
+                                    <li><a href="../News/News.html">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="copy">
+                <div class="text-center text-white p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2023 Copyright:
+                    <p class="copy fw-bold">Nationalpark.com</p>
+                </div>
+            </div>
+            <!-- Copyright -->
+
+
+        </footer>
+    </div>
+    <!-- footer end -->
+
+    <!-- External JS  -->
+    <script src="./app.js"></script>
+
+    <!-- BootStrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- ASO -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Jquerry CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Scroll Up -->
+    <script src="./jquery.scrollUp.min.js"></script>
+    <script>
+        $(function() {
+            $.scrollUp({
+                scrollImg: true,
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

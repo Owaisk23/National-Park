@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BootStrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Serif:opsz,wght@8..144,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./news.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../Media/e-project logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div id="container">
+
+        <nav class="navbar navbar-expand-lg  bg-body-tertiary fw-bold sticky-top bg-dark ">
+            <div class="container-fluid" id="nav">
+                <a class="navbar-brand text-success fs-2" href="../../index.html" style="font-family: Rubik Wet Paint;"><img src="../Media/e-project logo.png" alt="" style="height: 100px; width: 150px; margin-right: 10px; font-family: Rubik Wet Paint; ">National Park
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center " id="navbarSupportedContent" style="margin-left: -28px;">
+                    <ul class="navbar-nav mx-auto  fs-5" style="font-family: Agbalumo;">
+                        <li class="nav-item">
+                            <a class="nav-link active me-2 " aria-current="page" href="../index.html" id="dw">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle rounded-pill  ms-2 me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dw1">
+                                Specials
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../Events/events.html">Events</a></li>
+                                <li><a class="dropdown-item" href="../conservation/conservation.html">Conservation</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../Galleryyyysss/gallery 2/Gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#news">News&Blogs</a></li>
+                                <li><a class="dropdown-item" href="../Ticket/ticket.html">Tickets</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle rounded-pill  ms-2 me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dw2">
+                                Parks
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../../Evergreen Park/index.html">Evergreen Park</a></li>
+                                <li><a class="dropdown-item" href="../../Medowland Park/index.html">Medowland Park</a></li>
+                                <li><a class="dropdown-item" href="../../Lakeside Park/index.html">Lakeside Serenity Park</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="../About Us/about.html" id="dw3">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="../Contact_Us/Contact.html" id="dw4">Contact Us</a>
+                        </li>
+
+                        <div class="icons" style="margin-right: 5px;">
+                            <i class="fa-solid fa-moon" id="moon" onclick="dmode()" onmouseover="applydmode()" onmouseout="notapplydmode()"></i>
+                            <small id="dmodetext"></small>
+                            <i class="fa-solid fa-sun" id="sun" onclick="lmode()" onmouseover="applylmode()" onmouseout="notapplylmode()"></i>
+                            <small id="lmodetext"></small>
+                        </div>
+
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success bg-white" type="submit"><a href="../Register/signup.html"
+                                style="font-family: Agbalumo; text-decoration: none; color: green;">Register
+                                Now</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- navbar closed -->
+        <!-- Carousel Starts -->
+        <div class="container-fluid">
+            <div class="row" <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+                <h3 class="text-center text-light col-md-12 col-lg-12 col-sm-12" style="font-family: Agbalumo; position: absolute; z-index: 1; margin-top: 250px; font-size: 70px;">
+                    News & Blogs</h3>
+                <img src="../Media/animal 15.jpeg" alt="" class="img-fluid " style="width: 100%; height: 650px; position: relative; z-index: -160px; ">
+            </div>
+        </div>
+
+        <!-- Carousel Ends -->
+        <!-- News & Blogs Starts -->
+
+        <div class="container-fluid" style="margin-top: 70px;" id="news">
+            <div class="row text-center">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " data-aos="fade-down" data-aos-duration="1000">
+                    <div class="card border border-light " id="card1">
+                        <img src="./Media/News&Update_1.jpg" class="card-img-top" alt="..." style="height: 409px;">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-family: Agbalumo;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Help Us Save Animals for Global Recycling Day
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-success mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">May 22, 2022 * No Comments
+                            </h6>
+                            <p class="card-text mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Join us on Global Recycling Day as we unite to protect wildlife and their habitats, contributing to a sustainable future through responsible recycling.</p>
+                            <a href="https://www.wwf.org.uk/what-we-do/protecting-wildlife" target="_blank" class="btn btn-success rounded-pill" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card border border-light" id="card2">
+                        <img src="./Media/News&Update_2.jpg" class="card-img-top" alt="..." style="height: 409px;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: Agbalumo;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Bad Luck For Wildlife: 7 Animal Superstitions
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-success mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">May 22, 2022 * No Comments
+                            </h6>
+                            <p class="card-text mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Explore the fascinating and sometimes ominous world of wildlife superstitions as we delve into seven intriguing tales of bad luck and folklore surrounding.</p>
+                            <a href="https://createthegood.aarp.org/volunteer-ideas/protect-wildlife.html" target="_blank" class="btn btn-success rounded-pill" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " data-aos="fade-down" data-aos-duration="1000">
+                    <div class="card border border-light " id="card3">
+                        <img src="./Media/News&Update_3.jpg" class="card-img-top" alt="..." style="height: 409px;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: Agbalumo;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">It’s Boom Time For Baby Giraffes</h5>
+                            <h6 class="card-subtitle mb-2 text-success mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">May 22, 2022 * No Comments
+                            </h6>
+                            <p class="card-text mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Celebrate the flourishing era of baby giraffes as these majestic creatures thrive and multiply, ushering in a boom time for the enchanting world of giraffe calves.</p>
+                            <a href="https://www.wunc.org/2023-09-08/a-baby-giraffe-was-born-with-no-spots-and-thats-what-inspired-the-calfs-name" target="_blank" class="btn btn-success rounded-pill" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " data-aos="fade-down" data-aos-duration="1000">
+                    <div class="card border border-light " id="card4">
+                        <img src="./Media/News&Update_4.jpg" class="card-img-top" alt="..." style="height: 409px;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: Agbalumo;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">It’s Boom Time For Baby Giraffes</h5>
+                            <h6 class="card-subtitle mb-2 text-success mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">May 22, 2022 * No Comments
+                            </h6>
+                            <p class="card-text mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Discover the pivotal role of ecosystem engineers in shaping and sustaining our natural world, as these remarkable species play a crucial part.</p>
+                            <a href="https://www.vedantu.com/biology/importance-of-ecosystem" target="_blank" class="btn btn-success rounded-pill" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 5 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card border border-light " id="card5">
+                        <img src="./Media/News&Update_5.jpg" class="card-img-top" alt="..." style="height: 409px;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: Agbalumo;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Youth Ocean Conservation Summit</h5>
+                            <h6 class="card-subtitle mb-2 text-success mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">May 22, 2022 * No Comments
+                            </h6>
+                            <p class="card-text mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Dive into action and empower the future at the Youth Ocean Conservation Summit,where young leaders unite to champion marine preservation through education.</p>
+                            <a href="#" class="btn btn-success rounded-pill" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 6 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " data-aos="fade-down" data-aos-duration="1000">
+                    <div class="card border border-light " id="card6">
+                        <img src="./Media/News&Update_6.jpg" class="card-img-top" alt="..." style="height: 409px;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: Agbalumo;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">Conquer City Of Nature</h5>
+                            <h6 class="card-subtitle mb-2 text-success mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">May 22, 2022 * No Comments
+                            </h6>
+                            <p class="card-text mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Embark on an urban adventure and rediscover nature's wonders as we Conquer the City of Nature, blending the metropolitan charm with the green heart of our surroundings.</p>
+                            <a href="#" class="btn btn-success rounded-pill" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- News & Blogs Ends -->
+    </div>
+    <!-- footer start -->
+    <div class="col-md-12">
+        <footer class="footer-section " id="footer">
+            <div class="container-fluid">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>North Nazimabad Karachi, Pakistan</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>+92 374385230</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>nationalpark@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo ">
+                                    <a href="../../index.html"><img class="logopic" src="./Media/e-project logo.png" class="img" alt="logo"></a>
+                                    <h3 class="logoname  " style="margin-left: 160px">National Park</h3>
+                                </div>
+                                <div class="footer-text">
+                                    <p class="footer-texxt">Our National Park ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit Karachi.</p>
+                                </div>
+                                <div class="footer-social-icon ms-3">
+                                    <span>Follow us</span>
+                                    <a href="https://www.facebook.com/CanyonlandsNPS" target="_blank"><i
+                                                class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading d-flex">
+                                    <h3>Side maps</h3>
+                                    <h3 style="margin-left: 190px;">Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="../index.html">Home</a></li>
+                                    <li><a href="#news">News</a></li>
+                                    <li><a href="../Ticket/ticket.html">Tickets</a></li>
+                                    <li><a href="../Events/events.html">Events</a></li>
+
+                                    <li><a href="../Contact_Us/Contact.css">Contact Us</a></li>
+                                    <li><a href="../Galleryyyysss/gallery 2/Gallery.html">Gallery</a></li>
+                                    <li><a href="../About Us/about.html">About Us</a></li>
+                                    <li><a href="../News/News.html">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="copy">
+                <div class="text-center text-white p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2023 Copyright:
+                    <p class="copy fw-bold">Nationalpark.com</p>
+                </div>
+            </div>
+            <!-- Copyright -->
+
+
+        </footer>
+        <!-- footer end -->
+
+        <!-- External JS CDN -->
+        <script src="./app.js"></script>
+
+        <!-- BootStrap JS CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <!-- AOS CDN -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <!-- Jquerry CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <!-- Scroll Up -->
+        <script src="./jquery.scrollUp.min.js"></script>
+        <script>
+            $(function() {
+                $.scrollUp({
+                    scrollImg: true,
+                });
+            });
+        </script>
+
+
+</body>
+
+</html>

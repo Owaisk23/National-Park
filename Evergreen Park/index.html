@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- BootStrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./Media/e-project logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <div id="container">
+
+        <nav class="navbar navbar-expand-lg  bg-body-tertiary fw-bold sticky-top bg-dark ">
+            <div class="container-fluid" id="nav">
+                <a class="navbar-brand text-success fs-2" href="../index.html" style="font-family: Rubik Wet Paint;"><img src="./Media/e-project logo.png" alt="" style="height: 100px; width: 150px; margin-right: 10px; font-family: Rubik Wet Paint; ">National Park
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center " id="navbarSupportedContent" style="margin-left: -28px;">
+                    <ul class="navbar-nav mx-auto  fs-5" style="font-family: Agbalumo;">
+                        <li class="nav-item">
+                            <a class="nav-link active me-2 " aria-current="page" href="#home" id="dw">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle rounded-pill  ms-2 me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dw1">
+                                Specials
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./Events/events.html">Events</a></li>
+                                <li><a class="dropdown-item" href="./conservation/conservation.html">Conservation</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./Galleryyyysss/gallery 1/Gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./News/News.html">News&Blogs</a></li>
+                                <li><a class="dropdown-item" href="./Ticket/ticket.html">Tickets</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle rounded-pill  ms-2 me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dw2">
+                                Parks
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../index.html">Evergreen Park</a></li>
+                                <li><a class="dropdown-item" href="../Medowland Park/index.html">Medowland Park</a></li>
+                                <li><a class="dropdown-item" href="../Lakeside Park/index.html">Lakeside Serenity Park</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="./About Us/about.html" id="dw3">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="./Contact_Us/Contact.html" id="dw4">Contact Us</a>
+                        </li>
+
+                        <div class="icons" style="margin-right: 5px;">
+                            <i class="fa-solid fa-moon" id="moon" onclick="dmode()" onmouseover="applydmode()" onmouseout="notapplydmode()"></i>
+                            <small id="dmodetext"></small>
+                            <i class="fa-solid fa-sun" id="sun" onclick="lmode()" onmouseover="applylmode()" onmouseout="notapplylmode()"></i>
+                            <small id="lmodetext"></small>
+                        </div>
+
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success bg-white" type="submit"><a href="./Register/signup.html"
+                                style="font-family: Agbalumo; text-decoration: none; color: green;">Register
+                                Now</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- navbar closed -->
+
+
+
+        <!-- Carousel Starts  -->
+        <section id="home">
+
+
+            <div class="container-fluid" style="margin-top:-150px ;">
+                <div class="row">
+
+
+
+                    <div class="col-md-12 col-sm-12  text-center position-relative">
+                        <p class="position-absolute col-md-12 col-sm-12  text-light" style=" font-family: Agbalumo; font-size: 70px;  margin-top: 450px; text-decoration: underline white;">
+                            Evergreen Park</p>
+
+                        <img src="./Media/Tiger_Carousel_1.jpg" class="w-100" style="height: 900px; margin-top: 60px;">
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Carousel Ends  -->
+
+
+        <!-- Gallery Starts  -->
+        <section id="gallery">
+
+            <p class="mt-5 text-center" style="font-family: Agbalumo; font-size: 70px; color: rgb(4, 139, 4);" data-aos="fade-down-right">Our Gallery
+            </p>
+
+            <div class="gallery">
+                <figure class="imageRoll">
+                    <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i></i></i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    <figcaption style="font-family: 'Bebas Neue', sans-serif;">Panda: <strong style="font-family: Agbalumo;">Ollie</strong> (12 Weeks)</figcaption>
+                </figure>
+
+                <figure class="imageRoll">
+                    <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+                                                                                                                                                                                                                                                                </i></i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    <figcaption style="font-family: 'Bebas Neue', sans-serif;">Puppy: <strong style="font-family: Agbalumo;">Barney</strong> (9 Weeks)</figcaption>
+                </figure>
+
+                <figure class="imageRoll">
+                    <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+                                                                                                                                                                                                                                                                </i></i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    <figcaption style="font-family: 'Bebas Neue', sans-serif;">Elephant: <strong style="font-family: Agbalumo;">Walter</strong> (5 Years) </figcaption>
+                </figure>
+
+                <figure class="imageRoll">
+                    <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+                                                                                                                                                                                                                                                                </i></i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    <figcaption style="font-family: 'Bebas Neue', sans-serif;">Bear: <strong style="font-family: Agbalumo;">Miss Sunshine</strong> (2 Years) </figcaption>
+                </figure>
+
+                <figure class="imageRoll">
+                    <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+                                                                                                                                                                                                                                                                </i></i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    <figcaption style="font-family: 'Bebas Neue', sans-serif;">Penguin: <strong style="font-family: Agbalumo;">Reese</strong> (8 Weeks)</figcaption>
+                </figure>
+
+                <figure class="imageRoll">
+                    <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
+                                                                                                                                                                                                                                                                </i></i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    </i>
+                    <figcaption style="font-family: 'Bebas Neue', sans-serif;">Wolf: <strong style="font-family: Agbalumo;">Bruce</strong> (10 Weeks)</figcaption>
+                </figure>
+            </div>
+        </section>
+        <!-- Gallery Ends  -->
+
+        <!-- Tickets Starts -->
+        <section id="ticket">
+
+            <h3 class=" text-center " style="font-family: Agbalumo; margin-top: 100px; font-size: 75px ;  color: rgb(4, 139, 4); " data-aos="fade-down-left"> Ticket </h3>
+
+            <div class="container" style="position: relative; margin-top: 30px;">
+                <div class="row">
+
+                    <!-- Card 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5" style="position: relative; ;" data-aos="fade-up">
+                        <div class="card" id="card1" style="width: 18rem; height: 475px; border: 6px double rgb(4, 139, 4); border-radius: 20px; ">
+                            <div class="card-body mt-3 text-center text-success">
+                                <h5 class="card-title fs-2" style="font-family: 'Agbalumo', sans-serif; font-size:22px; font-weight: bold;">
+                                    Adult
+
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary mt-2" style="font-family: 'Anton', sans-serif; font-size:20px; font-family: Signika Nega; font-weight: bolder; " data-aos="flip-right">
+                                    Ticket for 12+ yrs</h6>
+                                <h5 class="card-title mt-4 text-success" style="font-size: 48px; font-weight: bolder; font-family: Signika Nega; "> $25</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item mt-3" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-right" data-aos-duration="500" data-aos-duration="850" id="dw5">
+                                        Afternoon Lunch!</li>
+                                    <li class="list-group-item" style="font-size: larger; font-family: Signika Nega;" data-aos="fade-right" data-aos-duration="1000" id="dw6">Horse Riding!</li>
+                                    <li class="list-group-item" style="font-size: larger; font-family: Signika Nega;" data-aos="fade-right" data-aos-duration="1300" id="dw7">One child free!</li>
+                                </ul>
+                                <button class="bg-success text-light border border-light rounded p-1 mt-5" style="box-shadow: 20px 20px 12px 0px rgba(0,0,0,0.1);"><a
+                                        href="./Ticket/ticket.html" style="text-decoration: none; color: white;">Buy
+                                        Ticket</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5 " data-aos="fade-down">
+                        <div class="card" id="card2" style="width: 18rem; height: 475px; border: 6px double rgb(4, 139, 4); border-radius: 20px; ">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-3 fs-2 text-success" style="font-family: 'Agbalumo', sans-serif; font-size:22px; font-weight: bold;">
+                                    Child
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary mt-2" style="font-family: 'Anton', sans-serif; font-size:20px; font-family: Signika Nega; font-weight: bolder; " data-aos="flip-right" data-aos-duration="850">
+                                    Ticket for 4-12 yrs</h6>
+                                <h5 class="card-title mt-4 text-success" style="font-size: 48px; font-weight: bolder; font-family: Signika Nega; ">$15 </h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item mt-3" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-right" data-aos-duration="500">
+                                        Afternoon Lunch!</li>
+                                    <li class="list-group-item" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-right" data-aos-duration="1000">
+                                        Free giftpacks!</li>
+                                    <li class="list-group-item" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-right" data-aos-duration="1300">
+                                        Free animals activities!</li>
+                                </ul>
+                                <button class="bg-success text-light border border-light rounded p-1 mt-5" style="box-shadow: 20px 20px 12px 0px rgba(0,0,0,0.1);"><a
+                                        href="./Ticket/ticket.html" style="text-decoration: none; color: white;">Buy
+                                        Ticket</a></button>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5 " data-aos="fade-up">
+                        <div class="card" id="card3" style="width: 18rem; height: 475px; border: 6px double rgb(4, 139, 4); border-radius: 20px;">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-3 fs-2 text-success" style="font-family: 'Agbalumo', sans-serif; font-size:22px; font-weight: bold;">Baby
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary mt-2" style="font-family: 'Anton', sans-serif; font-size:20px; font-family: Signika Nega; font-weight: bolder; " data-aos="flip-right" data-aos-duration="850">
+                                    Ticket for 0-3 yrs</h6>
+                                <h5 class="card-title mt-4 text-success" style="font-size: 45px; font-weight: bolder; font-family: Signika Nega; ">Free</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item mt-3" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-right" data-aos-duration="500">
+                                        Afternoon Lunch!</li>
+                                    <li class="list-group-item" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-right" data-aos-duration="1000">
+                                        Free baby car!</li>
+                                    <li class="list-group-item" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-right" data-aos-duration="1300">
+                                        Play area!</li>
+                                </ul>
+                                <button class="bg-success text-light border border-light rounded p-1 mt-5" style="box-shadow: 20px 20px 12px 0px rgba(0,0,0,0.1);"><a
+                                        href="./Ticket/ticket.html" style="text-decoration: none; color: white;">Buy
+                                        Ticket</a></button>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5  " data-aos="fade-down">
+                        <div class="card bg-success text-light" id="card4" style="width: 18rem; height: 475px; border: 6px double white; border-radius: 20px; ">
+                            <div class="Card">
+                                <div class="ribbon"><span class="ribbon__content">exclusive</span></div>
+                            </div>
+
+                            <div class="card-body bg-success text-light mt-3 text-center" style="border-radius: 20px;">
+                                <h5 class="card-title fs-2" style="font-family: 'Agbalumo', sans-serif; font-size:22px; font-weight: bold;">
+                                    Family
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-light mt-2" style="font-family: 'Anton', sans-serif; font-size:20px; font-family: Signika Nega; font-weight: bolder; " data-aos="flip-right" data-aos-duration="850">
+                                    Ticket for parents <br> + 2 childs</h6>
+                                <h5 class="card-title text-light text" style="font-size: 48px; font-weight: bolder; font-family: Signika Nega; margin-top: -7px; ">
+                                    $50</h5>
+                                <ul class="list-group list-group-flush bg-success text-light ">
+                                    <li class=" bg-success text-light list-group-item mt-2" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-up" data-aos-duration="500">lunch & Dinner!</li>
+                                    <li class=" bg-success text-light list-group-item" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-up" data-aos-duration="1000">Free zoo guide!</li>
+                                    <li class=" bg-success text-light list-group-item" style="font-size: larger; font-family: Signika Nega; " data-aos="fade-up" data-aos-duration="1300">All facilities for adult & childrens!</li>
+                                </ul>
+                                <button class="bg-success text-light border border-light rounded p-1 mt-4" style="box-shadow: 20px 20px 12px 0px rgba(0,0,0,0.1);"><a
+                                        href="./Ticket/ticket.html" style="text-decoration: none; color: white;">Buy
+                                        Ticket</a></button>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tickets Ends   -->
+
+        <!-- About Us Starts  -->
+        <section id="about">
+
+            <p class="text-center mb-5" style="font-family: Agbalumo; font-size: 70px; color: rgb(4, 139, 4); margin-top: 100px;" data-aos="fade-down-right">About Us
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./Media/african-elephant-walking.jpg" alt="" style="height: 480px; width: 620px;" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 fs-5" style="margin-top: 110px; font-family: 'Bebas Neue', sans-serif;">
+                        <h1 style="font-family: Agbalumo;" data-aos="fade-left" data-aos-duration="800">Our History:
+                        </h1>
+                        <p style="font-family: 'Abril Fatface', serif; word-spacing: 3px;" class="mt-3">Through decades of dedication, the park flourished into a haven for eco-tourism, drawing adventurers and scholars worldwide. Its founding principles of conservation and education laid the groundwork for subsequent national parks
+                            globally. Northwood's legacy endures as an icon of environmental stewardship, inspiring generations to cherish and protect natural wonders.
+
+
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- About Us Ends  -->
+
+        <!-- News & Update Starts  -->
+
+
+        <section id="news">
+            <h3 class=" text-center " style="font-family: Agbalumo; margin-top: 100px; font-size: 60px;  color: rgb(19, 119, 19); " data-aos="fade-down-left">
+                News & Updates </h3>
+
+            <div class="container" style="margin-top: 70px;">
+                <div class="row text-center">
+
+                    <!-- Card 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 " data-aos="flip-left" data-aos-duration="1000">
+                        <div class="card border border-light " style="width: 16rem;">
+                            <img src="./Media/News&Update_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body " id="card5">
+                                <h5 class="card-title" data-aos="zoom-in">Help Us Save Animals for Global Recycling Day
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-success mt-3">May 22, 2022 * No Comments
+                                </h6>
+                                <p class="card-text mt-3">"Join us on Global Recycling Day to safeguard wildlife by recycling responsibly and preserving their habitats for a sustainable future."</p>
+                                <a href="https://www.wwf.org.uk/what-we-do/protecting-wildlife" target="_blank" class="btn btn-success rounded-pill" data-aos="fade-up">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 " data-aos="flip-right" data-aos-duration="1000">
+                        <div class="card border border-light " style="width: 16rem;">
+                            <img src="./Media/News&Update_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" id="card6">
+                                <h5 class="card-title" data-aos="zoom-in">Bad Luck For Wildlife: 7 Animal Superstitions
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-success mt-3">May 22, 2022 * No Comments
+                                </h6>
+                                <p class="card-text mt-3"> Misconceptions link bats to vampires or evil spirits, causing fear and superstitions that harm their conservation and survival.</p>
+                                <a href="https://createthegood.aarp.org/volunteer-ideas/protect-wildlife.html" target="_blank" class="btn btn-success rounded-pill" data-aos="fade-up">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 " data-aos="flip-left" data-aos-duration="1000">
+                        <div class="card border border-light " style="width: 16rem;">
+                            <img src="./Media/News&Update_3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" id="card7">
+                                <h5 class="card-title" data-aos="zoom-in">It’s Boom Time For Baby Giraffes</h5>
+                                <h6 class="card-subtitle mb-2 text-success mt-3">May 22, 2022 * No Comments
+                                </h6>
+                                <p class="card-text mt-3">"Giraffes experience a population surge, marking a boom in baby births, offering hope for the conservation of these majestic creatures."</p>
+                                <a href="https://www.wunc.org/2023-09-08/a-baby-giraffe-was-born-with-no-spots-and-thats-what-inspired-the-calfs-name" target="_blank" class="btn btn-success rounded-pill" data-aos="fade-up">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 " data-aos="flip-right" data-aos-duration="1000">
+                        <div class="card border border-light " style="width: 16rem; margin-bottom: 3px;">
+                            <img src="./Media/News&Update_4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" id="card8">
+                                <h5 class="card-title" data-aos="zoom-in">The Importance of Ecosystem Engineers</h5>
+                                <h6 class="card-subtitle mb-2 text-success mt-3">May 22, 2022 * No Comments
+                                </h6>
+                                <p class="card-text mt-3">"Ecosystem engineers, such as beavers and ants, play a crucial role in shaping and maintaining habitats by modifying the environment."</p>
+                                <a href="https://www.vedantu.com/biology/importance-of-ecosystem" target="_blank" class="btn btn-success rounded-pill" data-aos="fade-up">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- News & Update Ends   -->
+    </div>
+    <!-- footer start -->
+    <div class="col-md-12">
+        <footer class="footer-section " id="footer">
+            <div class="container-fluid">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>North Nazimabad Karachi, Pakistan</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>+92 374385230</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>nationalpark@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo ">
+                                    <a href="../index.html"><img class="logopic" src="./Media/e-project logo.png" class="img" alt="logo"></a>
+                                    <h3 class="logoname  " style="margin-left: 160px">National Park</h3>
+                                </div>
+                                <div class="footer-text">
+                                    <p class="footer-texxt">Our National Park ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit Karachi.</p>
+                                </div>
+                                <div class="footer-social-icon ms-3">
+                                    <span>Follow us</span>
+                                    <a href="https://www.facebook.com/CanyonlandsNPS" target="_blank"><i
+                                            class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading d-flex">
+                                    <h3>Side maps</h3>
+                                    <h3 style="margin-left: 190px;">Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="./News/News.html">News</a></li>
+                                    <li><a href="./Ticket/ticket.html">Tickets</a></li>
+                                    <li><a href="./Events/events.html">Events</a></li>
+
+                                    <li><a href="./Contact_Us/Contact.html">Contact Us</a></li>
+                                    <li><a href="./Galleryyyysss/gallery 1/Gallery.html">Gallery</a></li>
+                                    <li><a href="./About Us/about.html">About Us</a></li>
+                                    <li><a href="./News/News.html">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="copy">
+                <div class="text-center text-white p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2023 Copyright:
+                    <p class="copy fw-bold">Nationalpark.com</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+
+
+        </footer>
+        <!-- footer end -->
+        <!-- External Js -->
+        <script src="./dl_mode.js"></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- Bootstrap JS CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+
+        <!-- Jquerry CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <!-- Scroll Up -->
+        <script src="./jquery.scrollUp.min.js"></script>
+        <script>
+            $(function() {
+                $.scrollUp({
+                    scrollImg: true,
+                });
+            });
+        </script>
+</body>
+
+</html>

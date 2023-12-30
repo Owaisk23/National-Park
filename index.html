@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="nationalpark">
+    <meta name="description" content="A picturesque haven featuring expansive meadows, tranquil waterways, and diverse flora, inviting visitors to embrace the serenity of a natural retreat">
+    <meta name="keywords" content="zoo">
+    <meta name="description" content="A picturesque haven featuring expansive meadows, tranquil waterways, and diverse flora, inviting visitors to embrace the serenity of a natural retreat">
+    <title>Document</title>
+    <!-- BootStrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <!-- External Css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./Evergreen Park/Media/e-project logo.png" type="image/x-icon">
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <div id="container">
+
+        <nav class="navbar navbar-expand-lg  bg-body-tertiary fw-bold sticky-top bg-dark ">
+            <div class="container-fluid" id="nav">
+                <a class="navbar-brand text-success fs-2" href="./index.html" style="font-family: Rubik Wet Paint;"><img src="./Evergreen Park/Media/e-project logo.png" alt="" style="height: 100px; width: 150px; margin-right: 10px; font-family: Rubik Wet Paint; ">National Park
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse text-center " id="navbarSupportedContent" style="margin-left: -28px;">
+                    <ul class="navbar-nav mx-auto  fs-5" style="font-family: Agbalumo;">
+                        <li class="nav-item">
+                            <a class="nav-link active me-2 " aria-current="page" href="#home" id="dw">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="./Evergreen Park/index.html" id="dw1">Evergreen Park</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="./Medowland Park/index.html" id="dw2">Medowland Park</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="./Lakeside Park/index.html" id="dw3">Lakeside Park</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-2" href="./About Us/about.html" id="dw4">About Us</a>
+                        </li>
+
+
+                        <div class="icons" style="margin-right: 5px;">
+                            <i class="fa-solid fa-moon" id="moon" onclick="dmode()" onmouseover="applydmode()" onmouseout="notapplydmode()"></i>
+                            <small id="dmodetext"></small>
+                            <i class="fa-solid fa-sun" id="sun" onclick="lmode()" onmouseover="applylmode()" onmouseout="notapplylmode()"></i>
+                            <small id="lmodetext"></small>
+                        </div>
+
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success bg-white" type="submit"><a
+                href="./Evergreen Park/Register/signup.html"
+                style="font-family: Agbalumo; text-decoration: none; color: green;">Register
+                Now</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- navbar closed -->
+
+
+        <!-- Carousel Starts -->
+        <div class="container-fluid" id="home">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Evergreen Park/Media/Tiger_Carousel_1.jpg" class="d-block w-100 img-fluid" style="height: 800px;" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="fw-bold fs-1">Evergreen Park</h5>
+                                    <p class=" fs-4">A serene oasis of lush greenery and towering trees, providing a timeless escape for relaxation and recreation in the heart of nature.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Medowland Park/Media/cheata Banner image.jpeg" style="height: 800px;" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="fs-1 fw-bold">Medowland Park</h5>
+                                    <p class="fs-4">A picturesque haven featuring expansive meadows, tranquil waterways, and diverse flora, inviting visitors to embrace the serenity of a natural retreat..</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Lakeside Park/Media/Banner_Deer.jpg" class="d-block w-100" alt="..." style="height: 800px;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="fs-1 fw-bold">Lakeside Park</h5>
+                                    <p class="fs-4">A tranquil retreat where shimmering waters meet scenic landscapes, offering a peaceful haven for recreation and contemplation along the shore..</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Ends -->
+        <!-- Motive Starts-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h3 class="text-center col-lg-12 col-md-12 col-sm-12" style="font-family: Agbalumo; margin-top: 60px; font-size: 6vw;">Our Motive</h3>
+                    <p class="text-center col-lg-12 col-md-12 col-sm-12 mt-4 fw-bold fs-5">
+                        Create a user-friendly web portal, "National Parks," designed for Windows using HTML5, JavaScript, and Geolocation. The site will provide enthusiasts with information on national parks and their wildlife. Unlike the current manual system, prone to damage and information loss, the proposed website allows global access to park details. It ensures compatibility with major browsers such as Chrome, IE, and Firefox. Simplifying data management, the site enhances user experience and eliminates the challenges associated with the existing manual approach.</p>
+                </div>
+                <!-- Motive Ends-->
+                <!-- Parks Starts -->
+                <!-- Park 1 -->
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="mt-5 text-center" style="font-family: Rubik Wet Paint; font-size: 4vw;">Evergreen Park</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Park 1 -->
+        <div class="container-fluid">
+            <div class="row">
+
+                <img src="./Evergreen Park/Media/Tiger_Carousel_1.jpg" style="height: 800px;" alt="" class="img-fluid mt-5">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center mt-5" style="font-family: Agbalumo; font-size: 3vw;">Description :</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <p class="text-center mt-2 fw-bold">Evergreen Park: Nestled in the embrace of towering pines and perennial foliage, this tranquil haven offers a timeless escape, inviting visitors to unwind amidst lush greenery, where nature's serenity reigns supreme. With winding trails
+                        and vibrant flora, Evergreen Park provides a breath of fresh air for those seeking solace in a picturesque, evergreen retreat.</p>
+                    <button class="text-center btn btn-success rounded-pill fs-5 mt-4"><a href="./Evergreen Park/index.html" style="text-decoration: none; color: white ; font-family: Agbalumo; word-spacing: 8px;">Visit Evergreen</a></button>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center mt-5" style="font-family: Agbalumo;">Location :</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d115774.96550039669!2d67.1383552!3d24.933171199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1700756699745!5m2!1sen!2s" width="1200" height="550" style="border:0;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="col-lg-12 col-md-12 col-sm-12 mt-4"></iframe>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <!-- Park 2  -->
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1 class="mt-5 text-center" style="font-family: Rubik Wet Paint; font-size: 4vw;">Medowland Park</h1>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <img src="./Medowland Park/Media/cheata Banner image.jpeg" style="height: 800px;" alt="" class="img-fluid mt-5">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center mt-5" style="font-family: Agbalumo; font-size: 3vw;">Description :</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <p class="text-center mt-2 fw-bold">A serene landscape of expansive meadows and winding pathways, this enchanting park beckons with the beauty of blooming wildflowers and the gentle murmur of nearby streams, creating an idyllic setting for relaxation and leisure in the
+                        heart of nature's embrace. With its abundant greenery and open spaces, Meadowland Park offers a peaceful sanctuary where visitors can reconnect with the tranquility of the outdoors.
+                    </p>
+                    <button class="text-center btn btn-success rounded-pill fs-5 mt-4"><a href="./Medowland Park/index.html" style="text-decoration: none; color: white ; font-family: Agbalumo; word-spacing: 8px;">Visit Medowland</a></button>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center mt-5" style="font-family: Agbalumo;">Location :</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d115774.96550039669!2d67.1383552!3d24.933171199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1700756699745!5m2!1sen!2s" width="1200" height="550" style="border:0;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="col-lg-12 col-md-12 col-sm-12 mt-4 "></iframe>
+                </div>
+            </div>
+        </div>
+       
+
+
+        <!-- Park 3 -->
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1 class="mt-5 text-center" style="font-family: Rubik Wet Paint; font-size: 4vw;">Lakeside Park</h1>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <img src="./Lakeside Park/Media/Banner_Deer.jpg" style="height: 800px;" alt="" class="img-fluid mt-5">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center mt-5" style="font-family: Agbalumo; font-size: 3vw;">Description :</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <p class="text-center mt-2 fw-bold">Lakeside Park: A picturesque sanctuary where the shimmering waters of the lake meet the tranquil beauty of surrounding landscapes, offering a peaceful escape for contemplation and recreation along the scenic shoreline. With its inviting
+                        atmosphere and scenic vistas, Lakeside Park provides a serene haven, inviting visitors to unwind and enjoy the harmonious blend of water and nature.</p>
+                    <button class="text-center btn btn-success rounded-pill fs-5 mt-4"><a href="./Lakeside Park/index.html" style="text-decoration: none; color: white ; font-family: Agbalumo; word-spacing: 8px;">Visit Lakeside</a></button>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center mt-5" style="font-family: Agbalumo;">Location :</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d115774.96550039669!2d67.1383552!3d24.933171199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1700756699745!5m2!1sen!2s" width="1200" height="550" style="border:0;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="col-lg-12 col-md-12 col-sm-12 mt-4 "></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center mt-5" style="font-family: Agbalumo; ">Visitors Review:</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonials Starts -->
+        <!-- Carousel section -->
+        <div class="container mb-5">
+            <div class="header text-center mt-3">
+            </div>
+            <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-bs-target="#carouselExampleControls">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="rounded-circle shadow-1-strong mb-4" src="./Media/Testimonial_1.png" alt="" style="width: 150px;" />
+                        <div class=" d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <h5 class="mb-3">Ethan</h5>
+                                <p class="text-muted fw-bold">
+                                    <i class="fas fa-quote-left pe-2"></i> "An awe-inspiring sanctuary of biodiversity and natural beauty, the national park captivates with its pristine landscapes and diverse ecosystems, offering a harmonious retreat
+                                    for both wildlife and visitors alike."
+                                </p>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="far fa-star fa-solid" style="color: green;"></i></li>
+
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle shadow-1-strong mb-4" src="./Media/Testimonial_2.png" alt="" style="width: 150px;" />
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <h5 class="mb-3">Anna Smith</h5>
+
+                                <p class="text-muted fw-bold">
+                                    <i class="fas fa-quote-left pe-2"></i> "Immersed in the untouched wonders of nature, the national park unfolds as a sanctuary of ecological marvels, enchanting all who venture into its breathtaking landscapes with a
+                                    profound sense of awe and reverence."
+
+
+                                </p>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="far fa-star fa-solid" style="color: green;"></i></li>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle shadow-1-strong mb-4" src="./Media/Testimonial_3.png" alt="" style="width: 150px;" />
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <h5 class="mb-3">Alexender</h5>
+
+                                <p class="text-muted fw-bold">
+                                    <i class="fas fa-quote-left pe-2"></i> "Steeped in natural grandeur, the national park beckons with its untamed wilderness, inviting exploration amidst majestic scenery and fostering a deep appreciation for the intrinsic
+                                    beauty of our planet."
+                                </p>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="far fa-star fa-solid" style="color: green;"></i></li>
+
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle shadow-1-strong mb-4" src="./Media/Testimonial_6.png" alt="" style="width: 150px;" />
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <h5 class="mb-3">Sophia</h5>
+
+                                <p class="text-muted fw-bold">
+                                    <i class="fas fa-quote-left pe-2"></i> "A vibrant tapestry of living ecosystems, the zoo serves as a living testament to biodiversity, where each exhibit becomes a window into the intricate beauty of the animal kingdom,
+                                    fostering awareness and appreciation for the delicate balance of our planet's rich tapestry of life."
+                                </p>
+
+                            </div>
+                        </div>
+                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="far fa-star fa-solid" style="color: green;"></i></li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="rounded-circle shadow-1-strong mb-4" src="./Media/Testimonial_5.png" alt="" style="width: 150px;" />
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-8">
+                                <h5 class="mb-3">Liam</h5>
+
+                                <p class="text-muted fw-bold">
+                                    <i class="fas fa-quote-left pe-2"></i> "Enchanting and educational, the zoo seamlessly blends entertainment with conservation, offering a captivating experience where visitors can marvel at diverse wildlife while gaining
+                                    a deeper understanding of the importance of global animal preservation efforts."
+                                </p>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="fas fa-star fa-solid" style="color: green;"></i></li>
+                            <li><i class="far fa-star fa-solid" style="color: green;"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+            </div>
+        </div>
+        <!-- Carousel-section-end -->
+        <!-- Testimonials Ends -->
+    </div>
+    <!-- Footer Starts -->
+    <div class="col-md-12">
+        <footer class="footer-section " id="footer">
+            <div class="container-fluid">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>North Nazimabad Karachi, Pakistan</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>+92 374385230</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>nationalpark@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo ">
+                                    <a href="../index.html"><img class="logopic" src="./Evergreen Park/Media/e-project logo.png" class="img" alt="logo"></a>
+                                    <h3 class="logoname  " style="margin-left: 160px">National Park</h3>
+                                </div>
+                                <div class="footer-text">
+                                    <p class="footer-texxt">Our National Park ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit Karachi.</p>
+                                </div>
+                                <div class="footer-social-icon ms-3">
+                                    <span>Follow us</span>
+                                    <a href="https://www.facebook.com/CanyonlandsNPS" target="_blank"><i
+                                        class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading d-flex">
+                                    <h3>Side maps</h3>
+                                    <h3 style="margin-left: 190px;">Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="./Evergreen Park/index.html">Evergreen Park</a></li>
+                                    <li><a href="./Medowland Park/index.html">Medowland Park</a></li>
+                                    <li><a href="./Lakeside Park/index.html">Lakeside Park</a></li>
+
+                                    <li><a href="./About Us/about.html">About Us</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="copy">
+                <div class="text-center text-white p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2023 Copyright:
+                    <p class="copy fw-bold">Nationalpark.com</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+
+
+        </footer>
+
+        <!-- Footer Ends -->
+
+
+        <!-- External JS -->
+        <script src="./app.js"></script>
+        <!-- Jquerry CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <!-- Scroll Up -->
+        <script src="./jquery.scrollUp.min.js"></script>
+        <script>
+            $(function() {
+                $.scrollUp({
+                    scrollImg: true,
+                });
+            });
+        </script>
+
+        <!-- BootStrap JS CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
